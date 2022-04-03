@@ -33,7 +33,7 @@ We provide the preprocessed datasets (GEOM) in this [[google drive folder]](http
 
 ### Prepare your own GEOM dataset from scratch (optional)
 
-You can also download origianl GEOM full dataset and prepare your own data split. A guide is available at previous work ConfGF's [[github page]](https://github.com/DeepGraphLearning/ConfGF#prepare-your-own-geom-dataset-from-scratch-optional).
+You can also download original GEOM full dataset and prepare your own data split. A guide is available at previous work ConfGF's [[github page]](https://github.com/DeepGraphLearning/ConfGF#prepare-your-own-geom-dataset-from-scratch-optional).
 
 ## Training
 
