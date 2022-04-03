@@ -21,6 +21,8 @@ conda activate geodiff
 conda install pytorch-geometric=1.7.2=py37_torch_1.8.0_cu102 -c rusty1s -c conda-forge
 ```
 
+Note that `conda env create -f env.yml` will fail if channel-priority is *not* set to `flexible`; this can be done by executing `conda config --set channel_priority flexible`.
+
 ## Dataset
 
 ### Offical Dataset
