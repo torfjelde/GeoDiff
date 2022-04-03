@@ -13,7 +13,7 @@ The official implementation of GeoDiff: A Geometric Diffusion Model for Molecula
 ### Install via Conda (Recommended)
 
 ```bash
-# Clone the environment
+# Clone the environment (note this will fail if channel-priority is set to `strict`)
 conda env create -f env.yml
 # Activate the environment
 conda activate geodiff
@@ -21,12 +21,10 @@ conda activate geodiff
 conda install pytorch-geometric=1.7.2=py37_torch_1.8.0_cu102 -c rusty1s -c conda-forge
 ```
 
-Note that `conda env create -f env.yml` will fail if channel-priority is *not* set to `flexible`; this can be done by executing `conda config --set channel_priority flexible`.
-
 ## Dataset
 
 ### Offical Dataset
-The offical raw GEOM dataset is avaiable [[here]](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JNGTDF).
+The offical raw GEOM dataset is available [[here]](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JNGTDF).
 
 ### Preprocessed dataset
 We provide the preprocessed datasets (GEOM) in this [[google drive folder]](https://drive.google.com/drive/folders/1b0kNBtck9VNrLRZxg6mckyVUpJA5rBHh?usp=sharing). After downleading the dataset, it should be put into the folder path as specified in the `dataset` variable of config files `./configs/*.yml`.
