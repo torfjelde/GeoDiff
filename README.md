@@ -43,10 +43,10 @@ You can train the model with the following commands:
 
 ```bash
 # Default settings
-python train.py ./config/qm9_default.yml
-python train.py ./config/drugs_default.yml
+python train.py ./configs/qm9_default.yml
+python train.py ./configs/drugs_default.yml
 # An ablation setting with fewer timesteps, as described in Appendix D.2.
-python train.py ./config/drugs_1k_default.yml
+python train.py ./configs/drugs_1k_default.yml
 ```
 
 The model checkpoints, configuration yaml file as well as training log will be saved into a directory specified by `--logdir` in `train.py`.
